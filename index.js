@@ -60,7 +60,7 @@ let findTheCheese = (foods) =>{
       }
 
       if(newFoods.length >0){
-        return  `${newFoods}`
+        return  newFoods;
         };
         return "no cheese!";
 }
